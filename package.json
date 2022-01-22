@@ -1,0 +1,33 @@
+{
+  "name": "devik-gupta-website",
+  "version": "1.0.0",
+  "engines": {
+    "node": "17.x"
+  },
+  "description": "https://devikgupta.xyz",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptadevik2003/Devik-Gupta-Website.git"
+  },
+  "author": "Devik_NotFound#2695",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guptadevik2003/Devik-Gupta-Website/issues"
+  },
+  "homepage": "https://github.com/guptadevik2003/Devik-Gupta-Website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^14.2.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "node": "^17.4.0"
+  }
+}
