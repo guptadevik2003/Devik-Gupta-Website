@@ -17,4 +17,14 @@ router.get('/index', async (req, res) => {
     res.redirect('/')
 })
 
+// /assets
+router.get('/assets', async (req, res) => {
+    res.render('assets.ejs')
+})
+
+// /projects
+router.get('/projects', async (req, res) => {
+    res.render('projects.ejs')
+})
+
 module.exports = router
