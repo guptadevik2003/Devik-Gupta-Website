@@ -9,7 +9,7 @@ router.get('/cbse', async (req, res) => {
     res.redirect(CBSEProject)
 })
 // /remas
-router.get('/cbse', async (req, res) => {
+router.get('/remas', async (req, res) => {
     res.redirect(CBSEProject)
 })
 // <==== CBSE PROJECT REMAS ENDS ====>
